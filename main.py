@@ -18,7 +18,7 @@ def divide(a, b):
         return "Division by zero is not allowed!"
 
 # Main program
-print("Basic Arithmetic Operations")  # This line print the greetings message
+print("Welcome to the best calculator ever created!!")  # This line print the greetings message
 num1 = float(input("Enter the first number: "))  # This two lines required 2 
 num2 = float(input("Enter the second number: ")) # numbers to the user 
 
