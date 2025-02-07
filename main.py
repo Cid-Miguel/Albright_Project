@@ -1,3 +1,4 @@
+import math
 # Function for addition
 def add(a, b):
     return a + b
@@ -16,6 +17,9 @@ def divide(a, b):
         return a / b
     else:
         return "Division by zero is not allowed!"
+def expo (a,b):
+    return math.pow(a,b)
+    
 
 # Main program
 print("Basic Arithmetic Operations")  # This line print the greetings message
@@ -27,3 +31,4 @@ print(f"Addition: {add(num1, num2)}")               # these lines print each res
 print(f"Subtraction: {subtract(num1, num2)}")       # of the functions created before
 print(f"Multiplication: {multiply(num1, num2)}")
 print(f"Division: {divide(num1, num2)}")
+print(f"Exponential: {expo(num1, num2)}")
