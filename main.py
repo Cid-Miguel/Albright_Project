@@ -1,18 +1,18 @@
 import math
 # Function for addition
-def add(a, b):
+def addition(a, b):
     return a + b
 
 # Function for subtraction
-def subtract(a, b):
+def subtraction(a, b):
     return a - b
 
 # Function for multiplication
-def multiply(a, b):
+def multiplication(a, b):
     return a * b
 
 # Function for division
-def divide(a, b):
+def division(a, b):
     if b != 0:
         return a / b
     else:
@@ -27,8 +27,9 @@ num1 = float(input("Enter the first number: "))  # This two lines required 2
 num2 = float(input("Enter the second number: ")) # numbers to the user 
 
 print("\nResults:")
-print(f"Addition: {add(num1, num2)}")               # these lines print each result
-print(f"Subtraction: {subtract(num1, num2)}")       # of the functions created before
-print(f"Multiplication: {multiply(num1, num2)}")
-print(f"Division: {divide(num1, num2)}")
+print(f"Addition: {addition(num1, num2)}")               # these lines print each result
+print(f"Subtraction: {subtraction(num1, num2)}")       # of the functions created before
+print(f"Multiplication: {multiplication(num1, num2)}")
+print(f"Division: {division(num1, num2)}")
 print(f"Exponential: {expo(num1, num2)}")
+
